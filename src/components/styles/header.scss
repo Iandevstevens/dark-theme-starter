@@ -1,0 +1,52 @@
+.header {
+  background-color: white; //TO DO: change to var primary color
+  width: 80%;
+  display: flex;
+  padding: 0 10%;
+  height: 80px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 0px 20px 0px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 80px);
+}
+
+.logo {
+  color: #212121; //TO DO: change to var text color
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+a {
+  color: #212121; //TO DO: change to var text color
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+a.active-link {
+  color: #6c757d; //TO DO: change to var text color
+}
+
+.toggle > .react-toggle-track {
+  background-color: #4d4d4d !important;
+}
+
+.toggle-icons {
+  position: absolute;
+  top: 6px;
+  left: -6px;
+}
+
+.toggle-icons.moon::before {
+  content: "\1F31C";
+}
+
+.toggle-icons.sun::before {
+  content: "\1F31E";
+}
